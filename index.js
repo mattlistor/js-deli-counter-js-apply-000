@@ -14,6 +14,10 @@ function nowServing(lineArray){
 }
 
 function currentLine(lineArray){
-  
+  var n = 0;
+  while(n < lineArray.length){
+    
+    n++;
+  }
 }
 
