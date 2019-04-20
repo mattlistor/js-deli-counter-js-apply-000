@@ -18,11 +18,12 @@ function currentLine(lineArray){
     return "The line is currently empty.";
   }
   else {
-    var spontInLine = 0;
+    var n = 0;
     var message = "";
-    while(spotInLine < lineArray.length){
-      message = " " + (spotInLine+1) + ". " + lineArray[spotInLine] +","
-      spotInLine++;
+    while(n < lineArray.length){
+      spotInLine = n+1
+      message = " " + spotInLine + ". " + lineArray[spotInLine] +","
+      n++;
     }
     message = "The line is currently:" + message;
     return message;
