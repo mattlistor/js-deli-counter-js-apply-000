@@ -8,7 +8,8 @@ function takeANumber(lineArray, newPerson){
 function nowServing(lineArray){
   if (lineArray.length === 0){return "There is nobody waiting to be served!"}
   else {
-    return lineArray.shift();
+    var message = `Current serving ${lineArray.shift()}`;
+    return message;
   }
 }
 
