@@ -21,7 +21,7 @@ function currentLine(lineArray){
     var n = 0;
     var message = "";
     while(n < lineArray.length){
-      var spotInLine = n+1;
+      var spotInLine = n+1; //so we dont mix up index vs. actuall spot
       message = message + " " + spotInLine + ". " + lineArray[n];
       if (spotInLine != lineArray.length){
         //if you are not at the end of the line yet
