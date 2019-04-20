@@ -24,7 +24,9 @@ function currentLine(lineArray){
       spotInLine = n+1;
       message = message + " " + spotInLine + ". " + lineArray[n];
       if (n < lineArray.length - 1){
-        message = message + ","
+        message = message + ", ";
+      }
+      else
       n++;
     }
     message = "The line is currently:" + message;
