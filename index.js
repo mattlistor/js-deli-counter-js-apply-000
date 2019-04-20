@@ -19,10 +19,10 @@ function currentLine(lineArray){
     var spontInLine = 0;
     var message = "";
     while(spotInLine < lineArray.length){
-      message = (spotInLine+1) + ". " + lineArray[spotInLine] +", "
+      message = " " + (spotInLine+1) + ". " + lineArray[spotInLine] +","
       spotInLine++;
     }
-    message = "The line is currently: " + message;
+    message = "The line is currently:" + message;
     return message;
 }
 
