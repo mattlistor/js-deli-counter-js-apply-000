@@ -22,7 +22,7 @@ function currentLine(lineArray){
     var message = "";
     while(n < lineArray.length){
       spotInLine = n+1
-      message = " " + spotInLine + ". " + lineArray[spotInLine] +","
+      message = message + " " + spotInLine + ". " + lineArray[spotInLine] +","
       n++;
     }
     message = "The line is currently:" + message;
