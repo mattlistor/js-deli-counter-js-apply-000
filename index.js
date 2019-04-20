@@ -24,7 +24,7 @@ function currentLine(lineArray){
       var spotInLine = n+1;
       message = message + " " + spotInLine + ". " + lineArray[n];
       if (spotInLine != lineArray.length){
-        //if you are not at the end line yet
+        //if you are not at the end of the line yet
         message = message + ",";}
       n++;
     }
