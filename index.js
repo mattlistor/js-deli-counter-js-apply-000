@@ -6,6 +6,6 @@ function takeANumber(lineArray, newPerson){
 }
 
 function nowServing(lineArray){
-  
+  if (lineArray.length == 0){return "Ther"}
 }
 
