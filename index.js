@@ -23,7 +23,7 @@ function currentLine(lineArray){
     while(n < lineArray.length){
       var spotInLine = n+1;
       message = message + " " + parseInt(spotInLine) + ". " + lineArray[n];
-      if (n < lineArray.length - 1){
+      if (spotInLine != lineArray.length){
         message = message + ",";
       }
       n++;
