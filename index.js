@@ -14,11 +14,12 @@ function nowServing(lineArray){
 }
 
 function currentLine(lineArray){
-  var n = 0;
-  message = "The line is currently: ";
-  while(n < lineArray.length){
-    message = message + 
+  var spontInLine = 0;
+  var message = "";
+  while(spotInLine < lineArray.length){
+    message = message + (spotInLine+1) + " " + lineArray[spotInLine]
     n++;
   }
+  message = ""
 }
 
