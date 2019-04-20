@@ -17,7 +17,7 @@ function currentLine(lineArray){
   var n = 0;
   message = "The line is currently: ";
   while(n < lineArray.length){
-    message = message + `
+    message = message + 
     n++;
   }
 }
