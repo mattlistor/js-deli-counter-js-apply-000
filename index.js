@@ -14,15 +14,15 @@ function nowServing(lineArray){
 }
 
 function currentLine(lineArray){
-  if (lineArray.length === 0){return "The line is currently empty.";
-  else{
-  var spontInLine = 0;
-  var message = "";
-  while(spotInLine < lineArray.length){
-    message = (spotInLine+1) + ". " + lineArray[spotInLine] +", "
-    spotInLine++;
-  }
-  message = "The line is currently: " + message;
-  return message;
+  if (lineArray.length === 0) {return "The line is currently empty.";
+  else {
+    var spontInLine = 0;
+    var message = "";
+    while(spotInLine < lineArray.length){
+      message = (spotInLine+1) + ". " + lineArray[spotInLine] +", "
+      spotInLine++;
+    }
+    message = "The line is currently: " + message;
+    return message;
 }
 
