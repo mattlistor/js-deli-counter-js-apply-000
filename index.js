@@ -5,5 +5,7 @@ function takeANumber(lineArray, newPerson){
   return message;
 }
 
-
+function nowServing(lineArray){
+  
+}
 
