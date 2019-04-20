@@ -14,7 +14,9 @@ function nowServing(lineArray){
 }
 
 function currentLine(lineArray){
-  if (lineArray.length === 0) {return "The line is currently empty.";
+  if (lineArray.length === 0) {
+    return "The line is currently empty.";
+  }
   else {
     var spontInLine = 0;
     var message = "";
