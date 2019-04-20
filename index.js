@@ -26,5 +26,6 @@ function currentLine(lineArray){
     }
     message = "The line is currently:" + message;
     return message;
+  }
 }
 
