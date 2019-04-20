@@ -13,3 +13,7 @@ function nowServing(lineArray){
   }
 }
 
+function currentLine(lineArray){
+  
+}
+
