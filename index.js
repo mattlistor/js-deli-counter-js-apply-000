@@ -24,7 +24,7 @@ function currentLine(lineArray){
       var spotInLine = n+1;
       message = message + " " + parseInt(spotInLine) + ". " + lineArray[n];
       if (n < lineArray.length - 1){
-        message = message + ", ";
+        message = message + ",";
       }
       n++;
     }
